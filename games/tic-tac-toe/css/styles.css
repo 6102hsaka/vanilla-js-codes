@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.page-header {
+    text-align: center;
+    font-size: calc(2rem + 2vw);
+    margin: 2rem 0;
+}
+
+/** grid style */
+.grid-container {
+    margin: auto;
+    display: grid;
+    height: 20rem;
+    width: 20rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 0.4rem;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: calc(2rem + 1vw);
+    border: 0.5rem solid dodgerblue;
+}
+
+.won {
+    border: none;
+    background-color: rgb(102, 250, 89);
+}
+
+.draw {
+    border: none;
+    background-color: rgb(175, 201, 231);
+}
+/** end of grid style */
+
+.status {
+    margin: 1rem auto;
+    font-size: calc(1rem + 0.5vw);
+    text-align: center;
+}
+
+button {
+    width: 20rem;
+    display: block;
+    margin: 1rem auto;
+    font-size: calc(0.8rem + 1vw);
+}
